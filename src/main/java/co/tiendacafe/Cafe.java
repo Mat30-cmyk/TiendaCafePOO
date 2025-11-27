@@ -30,4 +30,8 @@ public class Cafe {
         this.cantidadEnKilos = nuevaCantidad;
     }
 
+    public void aplicarDescuento(double porcentaje) {
+        double descuento = precioPorKilo * (porcentaje / 100);
+        precioPorKilo -= descuento;
+    }
 }
