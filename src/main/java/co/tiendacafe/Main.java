@@ -15,5 +15,8 @@ public class Main {
         System.out.println("Precio total Antioquia: $" + cafeAntioquia.calcularPrecioTotal());
         System.out.println("Precio total Huila: $" + cafeHuila.calcularPrecioTotal());
 
+        cafeAntioquia.actualizarCantidad(5);
+        System.out.println("\n--- Información Actualizada del Café de Antioquia ---");
+        cafeAntioquia.mostrarInformacion();
     }
 }
